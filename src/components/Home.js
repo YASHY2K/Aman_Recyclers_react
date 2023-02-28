@@ -12,6 +12,7 @@ function Home() {
               <img
                 className="d-block w-100"
                 src="https://via.placeholder.com/800x400.png?text=Carousel+Image+1"
+                rel="preload"
                 alt="First slide"
               />
               <Carousel.Caption>
