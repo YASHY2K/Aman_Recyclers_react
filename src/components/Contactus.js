@@ -10,9 +10,9 @@ function ContactUs() {
           <p>Get in touch with us.</p>
           <div>
             <h3>Office Location</h3>
-            <p>F/1, Anna Sagar Market, Behind Naaz Hotel, Kural, Andheri - Kurla Rd, Jarimari, Saki Naka, Mumbai, Maharashtra 400072</p>
-            <h3>Warehouse Location</h3>
             <p>G/2, OLYMPUS HOUSE, DADAJI RAGHUNATH STREET, FORT, MUMBAI, Mumbai City - 400001, Maharashtra - India</p>
+            <h3>Warehouse Location</h3>
+            <p>F/1, Anna Sagar Market, Behind Naaz Hotel, Kural, Andheri - Kurla Rd, Jarimari, Saki Naka, Mumbai, Maharashtra 400072</p>
             <h3>Factory Location</h3>
             <p>5VVP+2J7, SANJAN, ROAD, Talasari, Maharashtra 401606</p>
             <h3>Contact Email</h3>
