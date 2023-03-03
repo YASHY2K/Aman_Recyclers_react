@@ -5,11 +5,12 @@ import AboutUs from './components/Aboutus';
 import MeetTheTeam from './components/Team';
 import ContactUs from './components/Contactus';
 import Home from './components/Home';
-import { useState } from 'react'
+import Footer from './components/Footer';
+// import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/team" element={<MeetTheTeam />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

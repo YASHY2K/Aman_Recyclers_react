@@ -6,8 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-success">
       <div className="container">
-        <img src="/Images/Logo2.svg" alt="Logo" width="100" height="100" className="d-inline-block align-text-top"/>
-        <Link className="navbar-brand" to="/">E-Waste Recyclers</Link>
+        <Link className="navbar-brand" to="/"><img src="/Images/Logo2.svg" alt="Logo" width="100" height="100" className="d-inline-block align-text-top"/></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
