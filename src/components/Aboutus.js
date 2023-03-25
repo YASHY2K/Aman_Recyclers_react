@@ -1,19 +1,37 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
     <Container className="my-5">
-      <Row>
-        <Col>
-          <h1>About Us</h1>
-          <p>Learn more about Aman E-waste Recyclers Private Limited and our mission.</p>
-          <p>We're a group of eco-friendly people who want to do what we can to lessen the environmental damage caused by discarded electronics. Our mission is to make the proper disposal of electronic waste simple, secure, and accountable for all users.</p>
-        </Col>
-        <Col>
-          <img src="https://via.placeholder.com/300x200.png?text=Image+Placeholder" alt="placeholder" />
-        </Col>
-      </Row>
+      <h1>About Us</h1>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Warehouse" />
+              <Card.Body>
+                <Card.Title>Warehouse</Card.Title>
+                <Card.Text>
+                  Learn more about our warehouse and how we process e-waste.
+                </Card.Text>
+                <Link to="/Warehouse" className="btn btn-primary">View More</Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Factory" />
+              <Card.Body>
+                <Card.Title>Factory</Card.Title>
+                <Card.Text>
+                  Learn more about our factory and how we recycle e-waste.
+                </Card.Text>
+                <Link to="/Factory" className="btn btn-primary">View More</Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
     </Container>
   );
 }

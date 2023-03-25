@@ -9,7 +9,7 @@ function MeetTheTeam() {
         <Row>
           <Col sm={4} className="mx-auto">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=John+Doe" />
+              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Director" />
               <Card.Body>
                 <Card.Title>Mohammed Tanveer</Card.Title>
                 <Card.Text>Director</Card.Text>
@@ -18,7 +18,7 @@ function MeetTheTeam() {
           </Col>
           <Col sm={4} className="mx-auto">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Jane+Smith" />
+              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Additional+Director" />
               <Card.Body>
                 <Card.Title>Abdul Karim Chaudhary</Card.Title>
                 <Card.Text>Additional Director</Card.Text>

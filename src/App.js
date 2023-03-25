@@ -6,6 +6,8 @@ import MeetTheTeam from './components/Team';
 import ContactUs from './components/Contactus';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import Warehouse from './components/Warehouse';
+import Factory from './components/Factory';
 // import { useState } from 'react'
 import './App.css'
 
@@ -21,6 +23,8 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/team" element={<MeetTheTeam />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/Warehouse" element={<Warehouse />} />
+          <Route path="/Factory" element={<Factory />} />
         </Routes>
         <Footer />
       </BrowserRouter>

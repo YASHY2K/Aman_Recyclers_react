@@ -22,7 +22,7 @@ function Footer() {
                     <ul className="list-unstyled contact-info">
                     <li><FontAwesomeIcon icon={faLocationDot} className="icon me-2" /> G/2, OLYMPUS HOUSE, DADAJI RAGHUNATH STREET, FORT, MUMBAI, Mumbai City - 400001, Maharashtra - India</li>
                     <li><FontAwesomeIcon icon={faPhone} className="icon me-2" /> +1 234 567 8901</li>
-                    <li><FontAwesomeIcon icon={faEnvelope} className="icon me-2" /> info@amane-waste.com</li>
+                    <li><FontAwesomeIcon icon={faEnvelope} className="icon me-2" /> info@amanrecyclers.com</li>
                     </ul>
                 </Col>
                 <Col lg={3} md={6}>
