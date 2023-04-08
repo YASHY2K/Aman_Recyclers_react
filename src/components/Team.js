@@ -7,7 +7,7 @@ function MeetTheTeam() {
       <Container>
         <h1 className="text-center mb-5">Meet the Team</h1>
         <Row>
-          <Col sm={4} className="mx-auto">
+          <Col sm={4} className="mx-auto" style={{paddingBottom: "10px"}}>
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Director" />
               <Card.Body>
@@ -16,7 +16,7 @@ function MeetTheTeam() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={4} className="mx-auto">
+          <Col sm={4} className="mx-auto" style={{paddingBottom: "10px"}}>
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Additional+Director" />
               <Card.Body>

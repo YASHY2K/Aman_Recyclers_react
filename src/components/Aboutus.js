@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function AboutUs() {
   return (
     <Container className="my-5">
-      <h1>About Us</h1>
+      <h1 className="text-center mb-5">About Us</h1>
         <Row>
           <Col>
             <Card>
