@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import {Row, Col, Carousel } from 'react-bootstrap';
 import '../styles/Home.css';
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
     <div className="container-fluid">
       <Row>
         <Col>
-          <Carousel>
+          <Carousel style={{marginTop: "5px"}}>
             <Carousel.Item>
               <img
                 className="d-block w-100"

@@ -1,15 +1,16 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import '../styles/CustomCard.css';
 
 function AboutUs() {
   return (
     <Container className="my-5">
       <h1 className="text-center mb-5">About Us</h1>
         <Row>
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Warehouse" />
+          <Col sm={4} className="mx-auto" style={{paddingBottom: "10px"}}>
+            <Card className="custom-card">
+              <Card.Img className="rounded" variant="top" src="https://via.placeholder.com/150x150.png?text=Warehouse" />
               <Card.Body>
                 <Card.Title>Warehouse</Card.Title>
                 <Card.Text>
@@ -19,9 +20,9 @@ function AboutUs() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150x150.png?text=Factory" />
+          <Col sm={4} className="mx-auto" style={{paddingBottom: "10px"}}>
+            <Card className="custom-card">
+              <Card.Img className="rounded" variant="top" src="https://via.placeholder.com/150x150.png?text=Factory" />
               <Card.Body>
                 <Card.Title>Factory</Card.Title>
                 <Card.Text>
