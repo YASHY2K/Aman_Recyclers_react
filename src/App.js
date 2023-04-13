@@ -10,10 +10,19 @@ import Warehouse from './components/Warehouse';
 import Factory from './components/Factory';
 // import { useState } from 'react'
 import './App.css'
+import './gif.css'
 
 function App() {
   // const [count, setCount] = useState(0)
-
+  const production = true
+  if(production){
+    return (
+      <div className="d-flex align-items-center justify-content-center temp">
+        <h5 className='d-inline'>Site is under maintenance</h5>
+        <span class="loader"></span>
+      </div>
+    )
+  }
   return (
     <>
       <BrowserRouter>
