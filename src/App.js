@@ -14,7 +14,7 @@ import './gif.css'
 
 function App() {
   // const [count, setCount] = useState(0)
-  const production = true
+  const production = false
   if(production){
     return (
       <div className="d-flex align-items-center justify-content-center temp">
